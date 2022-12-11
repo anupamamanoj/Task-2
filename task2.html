@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+    <fieldset>
+        <form action="/signup" method="post" id="signup" onsubmit="sConsole(event)">
+
+            <h1>Sign Up</h1>
+
+			<div class="field">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your fullname" />
+				<small></small>
+			</div>
+                
+			<div class="field">
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="email" placeholder="Enter your email address" />
+				<small></small>
+			</div>
+
+            <div class="field">
+                <label>Value:</label>
+                <input type="number" id="quantity" name="quantity" placeholder="Enter Number 7">
+            </div>
+
+			<div class="field">
+				<button type="submit" class="full">Subscribe</button>
+			</div>
+
+        </form>
+    </fieldset>
+
+    <br>
+
+    <p>Change Background Color</p>
+    <h1 id="txt">Hover</h1>
+
+    <br>
+
+    <p>Two Buttons</p>
+    <a href="https://www.google.com"><button onclick="googleMe()">Google</button></a>
+    <br>
+    <a href="https://offline-dino-game.firebaseapp.com/"><button onclick="playNow()">Play Now</button></a>
+
+    <br>
+    <br>
+
+    <p>Manipulate Text</p>
+    <button onclick="clickMe()">Click Me</button>
+    <h1 id="test">First</h1>
+
+    <br>
+
+    <p>Manipulate Heading Text H1 to H5</p>
+    <button onclick="clickMe2()">Click Me Again</button>
+    <h1 id="test2">H1 Tag</h1>
+
+    <br>
+    
+    <script src="task2.js" type="text/javascript"></script>
+
+</body>
+</html>
